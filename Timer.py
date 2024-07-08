@@ -53,7 +53,7 @@ def play_alarm():
     global alarm_playing
     alarm_playing = True
     while alarm_playing:
-        playsound("Timer/alarm.wav")
+        playsound("Intern_Project/Timer/alarm.wav")
 
 def Timer_start():
     global timer_running
@@ -107,15 +107,15 @@ def workout():
     mins.set("15")
     sec.set("00")
 
-Image1 = PhotoImage(file="Timer/break.png")
+Image1 = PhotoImage(file="Intern_Project/Timer/break.png")
 button1 = Button(root, image=Image1, bg="#000", bd=0, command=breakt)
 button1.place(x=25, y=300)
 
-Image2 = PhotoImage(file="Timer/study.png")
+Image2 = PhotoImage(file="Intern_Project/Timer/study.png")
 button2 = Button(root, image=Image2, bg="#000", bd=0, command=study)
 button2.place(x=160, y=300)
 
-Image3 = PhotoImage(file="Timer/workout.png")
+Image3 = PhotoImage(file="Intern_Project/Timer/workout.png")
 button3 = Button(root, image=Image3, bg="#000", bd=0, command=workout)
 button3.place(x=290, y=300)
 
